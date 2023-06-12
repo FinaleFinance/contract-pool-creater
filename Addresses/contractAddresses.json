@@ -1,0 +1,58 @@
+[
+  {
+    "_name": "Wrapped Ether",
+    "_symbol": "WETH",
+    "_decimals": 18,
+    "_initialSupply": "10000000000000000000000000000000",
+    "_address": "0xBd0DD52f0157c356f08a5D72e4788a9178dD44d2"
+  },
+  {
+    "_name": "USD Coin",
+    "_symbol": "USDC",
+    "_decimals": 6,
+    "_initialSupply": "10000000000000000000",
+    "_address": "0xd4674791970e6b3F1e31D88aB6D12bBEDb076cDc"
+  },
+  {
+    "_name": "Wrapped Bitcoin",
+    "_symbol": "WBTC",
+    "_decimals": 8,
+    "_initialSupply": "1000000000000000000000",
+    "_address": "0xe06b8c05b9863d9D67724B7fCCff932AD89e644D"
+  },
+  {
+    "_name": "Dai Stablecoin",
+    "_symbol": "DAI",
+    "_decimals": 18,
+    "_initialSupply": "10000000000000000000000000000000",
+    "_address": "0x36fD4fbb530D3A3d4F6e001C093718d4255f60DC"
+  },
+  {
+    "_name": "Tether USD",
+    "_symbol": "USDT",
+    "_decimals": 6,
+    "_initialSupply": "10000000000000000000",
+    "_address": "0x203201695d4FF6436a22c88C56D7d5E5949E1a30"
+  },
+  {
+    "_name": "SHIBA INU",
+    "_symbol": "SHIB",
+    "_decimals": 18,
+    "_initialSupply": "10000000000000000000000000000000",
+    "_address": "0x01311410FFE4662ABA81828740A58803Ff052b7D"
+  },
+  {
+    "_name": "ChainLink Token",
+    "_symbol": "LINK",
+    "_decimals": 18,
+    "_initialSupply": "10000000000000000000000000000000",
+    "_address": "0x49B6e074db4c5DC96D58301f54aA47bC0fEfd7BC"
+  },
+  {
+    "_name": "Finale Token",
+    "_symbol": "ALE",
+    "_decimals": 18,
+    "_initialSupply": "10000000000000000000000000000000",
+    "_address": "0x6a65d5C3424683316e69629925942bC58d182C30"
+  }
+]
