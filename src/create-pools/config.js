@@ -39,16 +39,6 @@ const token_amounts_muteio = ["100000", "185000000", "2500", "181000000", "18250
 // WETH - ALE => 1WETH == 650 ALE
 const token_amounts_syncswap = ["100000", "182000000", "2000", "179000000", "184500000", "180000000", "11000000", "65000000"];
 
-// const tokenPairs = [
-//     {addressA: "0x4C1BFFF624B54c457c6E6fE13d0016283463158A", addressB: "0x21A0389A91D53aA2e9C7E71303301a2ED237286b", amountA: '150.0', amountB: '150.0', decimalA: 6, decimalB: 18}, // WETH - USDC
-//     {addressA: "0xa3b1a0029254E73E434881abe11788fC220B78C8", addressB: "0x21A0389A91D53aA2e9C7E71303301a2ED237286b", amountA: '150.0', amountB: '150.0', decimalA: 6, decimalB: 18}, // WETH - DAI
-//     {addressA: "0x60A458fC946419d95C7691625C12476B1F98e0b3", addressB: "0x21A0389A91D53aA2e9C7E71303301a2ED237286b", amountA: '150.0', amountB: '150.0', decimalA: 18, decimalB: 18}, // WETH - USDT
-//     {addressA: "0x7C0C089f20EFF7261B4763f85B346731d920F58b", addressB: "0x21A0389A91D53aA2e9C7E71303301a2ED237286b", amountA: '150.0', amountB: '150.0', decimalA: 8, decimalB: 18}, // WETH - BTC
-//     {addressA: "0x124085C5999477cFc3E24Ce0C9870De02Fd1E112", addressB: "0x21A0389A91D53aA2e9C7E71303301a2ED237286b", amountA: '150.0', amountB: '150.0', decimalA: 18, decimalB: 18}, // WETH - LINK
-//     {addressA: "0xFb975596867c567b378f058689421302333A93B8", addressB: "0x21A0389A91D53aA2e9C7E71303301a2ED237286b", amountA: '150.0', amountB: '150.0', decimalA: 18, decimalB: 18}, // WETH - SHIB
-//     {addressA: "0xf84b4b42ffC51a84F32caEd85122674C67C3AC94", addressB: "0x21A0389A91D53aA2e9C7E71303301a2ED237286b", amountA: '150.0', amountB: '150.0', decimalA: 18, decimalB: 18}, // WETH - ALE
-// ];
-
 module.exports = {
     muteio_router_contract_address,
     syncswap_router_contract_address,
