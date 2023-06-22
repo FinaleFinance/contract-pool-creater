@@ -1,4 +1,4 @@
-const { ethers } = require("ethers");
+const { ethers, BigNumber } = require("ethers");
 const fs = require('fs').promises;
 const path = require('path');
 require('dotenv').config({ path: path.join(__dirname, '..', '..', '.env') });
@@ -53,14 +53,16 @@ async function muteio(item) {
     const pool_reserves = await pool_interface.getReserves();
     const pool_reserves_0 = (pool_reserves[0] / (10**token0_decimal)).toString()
     const pool_reserves_1 = (pool_reserves[1] / (10**token1_decimal)).toString()
+    const real_reserves_0 = pool_reserves[0];
+    const real_reserves_1 = pool_reserves[1];
     return {
         id: "Muteio-"+item.address,
         type: "pool",
         attributes: {
             address: item.address,
             name: token0_symbol + " / " + token1_symbol,
-            base_token_price_quote_token: pool_reserves_1 / pool_reserves_0,
-            quote_token_price_base_token: pool_reserves_0 / pool_reserves_1,
+            base_token_price_quote_token: Number((pool_reserves_1 / pool_reserves_0).toFixed(token1_decimal)),
+            quote_token_price_base_token: Number((pool_reserves_0 / pool_reserves_1).toFixed(token0_decimal)),
             swap_fee: "0.3"
         },
         relationships: {
@@ -74,7 +76,7 @@ async function muteio(item) {
                 data: {
                     name: token0_name,
                     symbol: token0_symbol,
-                    reserves: Number(pool_reserves_0),
+                    reserves: real_reserves_0,
                     contract_address: pool_token0,
                     decimals: Number(token0_decimal.toString()),
                     type: "token"
@@ -84,7 +86,7 @@ async function muteio(item) {
                 data: {
                     name: token1_name,
                     symbol: token1_symbol,
-                    reserves: Number(pool_reserves_1),
+                    reserves: real_reserves_1,
                     contract_address: pool_token1,
                     decimals: Number(token1_decimal.toString()),
                     type: "token"
@@ -109,6 +111,8 @@ async function syncswap(item) {
     const pool_reserves = await pool_interface.getReserves();
     const pool_reserves_0 = (pool_reserves[0] / (10**token0_decimal)).toString()
     const pool_reserves_1 = (pool_reserves[1] / (10**token1_decimal)).toString()
+    const real_reserves_0 = pool_reserves[0];
+    const real_reserves_1 = pool_reserves[1];
 
     return {
         id: "Syncswap-"+item.address,
@@ -116,8 +120,8 @@ async function syncswap(item) {
         attributes: {
             address: item.address,
             name: token0_symbol + " / " + token1_symbol,
-            base_token_price_quote_token: pool_reserves_1 / pool_reserves_0,
-            quote_token_price_base_token: pool_reserves_0 / pool_reserves_1,
+            base_token_price_quote_token: Number((pool_reserves_1 / pool_reserves_0).toFixed(token1_decimal)),
+            quote_token_price_base_token: Number((pool_reserves_0 / pool_reserves_1).toFixed(token0_decimal)),
             swap_fee: "0.3"
         },
         relationships: {
@@ -131,7 +135,7 @@ async function syncswap(item) {
                 data: {
                     name: token0_name,
                     symbol: token0_symbol,
-                    reserves: Number(pool_reserves_0),
+                    reserves: real_reserves_0,
                     contract_address: pool_token0,
                     decimals: Number(token0_decimal.toString()),
                     type: "token"
@@ -141,7 +145,7 @@ async function syncswap(item) {
                 data: {
                     name: token1_name,
                     symbol: token1_symbol,
-                    reserves: Number(pool_reserves_1),
+                    reserves: real_reserves_1,
                     contract_address: pool_token1,
                     decimals: Number(token1_decimal.toString()),
                     type: "token"
