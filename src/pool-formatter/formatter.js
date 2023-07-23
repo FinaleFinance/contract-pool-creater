@@ -63,7 +63,7 @@ async function muteio(item) {
             name: token0_symbol + " / " + token1_symbol,
             base_token_price_quote_token: Number((pool_reserves_1 / pool_reserves_0).toFixed(token1_decimal)),
             quote_token_price_base_token: Number((pool_reserves_0 / pool_reserves_1).toFixed(token0_decimal)),
-            swap_fee: "0.3"
+            swap_fee: "1.5"
         },
         relationships: {
             dex: {
@@ -113,6 +113,7 @@ async function syncswap(item) {
     const pool_reserves_1 = (pool_reserves[1] / (10**token1_decimal)).toString()
     const real_reserves_0 = pool_reserves[0];
     const real_reserves_1 = pool_reserves[1];
+    const swap_fee = await pool_interface.getSwapFee(item.address, wallet.address, pool_token0, pool_token1);
 
     return {
         id: "Syncswap-"+item.address,
@@ -122,7 +123,7 @@ async function syncswap(item) {
             name: token0_symbol + " / " + token1_symbol,
             base_token_price_quote_token: Number((pool_reserves_1 / pool_reserves_0).toFixed(token1_decimal)),
             quote_token_price_base_token: Number((pool_reserves_0 / pool_reserves_1).toFixed(token0_decimal)),
-            swap_fee: "0.3"
+            swap_fee: `${swap_fee/1000}`
         },
         relationships: {
             dex: {
