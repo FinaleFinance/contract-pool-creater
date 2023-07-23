@@ -1,86 +1,86 @@
 [
   {
     "pool": "Muteio - WETH / USDC",
-    "token0": "0xd4674791970e6b3F1e31D88aB6D12bBEDb076cDc",
-    "token1": "0xBd0DD52f0157c356f08a5D72e4788a9178dD44d2",
-    "address": "0x324F0547dc3F4c738aD89b33F8DdEF0F0A7165EB"
+    "token0": "0x6156A8E112BfBC71CE428351449F16A4a99495E4",
+    "token1": "0xadCae7cFec991Bd864055043439a103cbeF152f0",
+    "address": "0x9e80Ba8312cE577bE68E15D7e1CdE2d1A5623a1c"
   },
   {
     "pool": "Muteio - WETH / WBTC",
-    "token0": "0xe06b8c05b9863d9D67724B7fCCff932AD89e644D",
-    "token1": "0xBd0DD52f0157c356f08a5D72e4788a9178dD44d2",
-    "address": "0x95078589103c12C7dD89c00c9D75D304F6e859c9"
+    "token0": "0x1D7812910808A6AcD6B88032d1c1Ee4e0e3619c2",
+    "token1": "0xadCae7cFec991Bd864055043439a103cbeF152f0",
+    "address": "0x7D9D7d4b10B1B559D4Cd25884e5002AfD8423676"
   },
   {
     "pool": "Muteio - WETH / DAI",
-    "token0": "0x36fD4fbb530D3A3d4F6e001C093718d4255f60DC",
-    "token1": "0xBd0DD52f0157c356f08a5D72e4788a9178dD44d2",
-    "address": "0x10d0Ef7Dc03F06f1a509220E6442c5a6eE2988d3"
+    "token0": "0x56DC58F4746CFd168e619B1703a9CAD80597a3a4",
+    "token1": "0xadCae7cFec991Bd864055043439a103cbeF152f0",
+    "address": "0xa75Ce85E4ADC9AbE6F76eE04637264621cB35135"
   },
   {
     "pool": "Muteio - WETH / USDT",
-    "token0": "0x203201695d4FF6436a22c88C56D7d5E5949E1a30",
-    "token1": "0xBd0DD52f0157c356f08a5D72e4788a9178dD44d2",
-    "address": "0x3d1fd116aa18AcD56f180f12acA4061e6b181f18"
+    "token0": "0x82e9D9E578559B362390a1B36598Bda28887E6a4",
+    "token1": "0xadCae7cFec991Bd864055043439a103cbeF152f0",
+    "address": "0xf2095441FeB94ca729493e27Bfb63BF39fe18645"
   },
   {
     "pool": "Muteio - WETH / SHIB",
-    "token0": "0x01311410FFE4662ABA81828740A58803Ff052b7D",
-    "token1": "0xBd0DD52f0157c356f08a5D72e4788a9178dD44d2",
-    "address": "0xe72F6CBdA230C166d7e8abe3129072da40D61763"
+    "token0": "0xaA9638ecbAAA251bD93AC7c09993368311572231",
+    "token1": "0xadCae7cFec991Bd864055043439a103cbeF152f0",
+    "address": "0xAaAf7D3AeA3B5d26CdB59A67Bb355C92Ca6B04eb"
   },
   {
     "pool": "Muteio - WETH / LINK",
-    "token0": "0x49B6e074db4c5DC96D58301f54aA47bC0fEfd7BC",
-    "token1": "0xBd0DD52f0157c356f08a5D72e4788a9178dD44d2",
-    "address": "0xa17d1c56758CB089cEAECa26019Fd17B95Fa1844"
+    "token0": "0x72FBA835358a65aFD096e73cD3EB93f76f019556",
+    "token1": "0xadCae7cFec991Bd864055043439a103cbeF152f0",
+    "address": "0x117164b1f3EdBC138AEd620234F190Ba75131944"
   },
   {
     "pool": "Muteio - WETH / ALE",
-    "token0": "0x6a65d5C3424683316e69629925942bC58d182C30",
-    "token1": "0xBd0DD52f0157c356f08a5D72e4788a9178dD44d2",
-    "address": "0x06172220Fcd7466AFABFBBe57CF5B84C3557D08f"
+    "token0": "0x27be94d6fB34D09Ee7A17f6695a75bc0233EE62B",
+    "token1": "0xadCae7cFec991Bd864055043439a103cbeF152f0",
+    "address": "0x5d9aE87e0BE6047e99B40C3Dc0B47470710C811A"
   },
   {
     "pool": "Syncswap - WETH / USDC",
-    "token0": "0xd4674791970e6b3F1e31D88aB6D12bBEDb076cDc",
-    "token1": "0xBd0DD52f0157c356f08a5D72e4788a9178dD44d2",
-    "address": "0x02f1192b6f6d73224f2860adf9684a5cafa7e8f6"
+    "token0": "0x6156A8E112BfBC71CE428351449F16A4a99495E4",
+    "token1": "0xadCae7cFec991Bd864055043439a103cbeF152f0",
+    "address": "0x9bb1752d9b1aebb4ff3e5c0739e2a2a664732fff"
   },
   {
     "pool": "Syncswap - WETH / WBTC",
-    "token0": "0xe06b8c05b9863d9D67724B7fCCff932AD89e644D",
-    "token1": "0xBd0DD52f0157c356f08a5D72e4788a9178dD44d2",
-    "address": "0xe58c2bddfa39c312caed4766c9459fc386b5df86"
+    "token0": "0x1D7812910808A6AcD6B88032d1c1Ee4e0e3619c2",
+    "token1": "0xadCae7cFec991Bd864055043439a103cbeF152f0",
+    "address": "0x765178715fd2564114aeea3cc465e4d8920349fc"
   },
   {
     "pool": "Syncswap - WETH / DAI",
-    "token0": "0x36fD4fbb530D3A3d4F6e001C093718d4255f60DC",
-    "token1": "0xBd0DD52f0157c356f08a5D72e4788a9178dD44d2",
-    "address": "0x1c5ba5891f816bdcc8355bf9fffbe17bebc81559"
+    "token0": "0x56DC58F4746CFd168e619B1703a9CAD80597a3a4",
+    "token1": "0xadCae7cFec991Bd864055043439a103cbeF152f0",
+    "address": "0x237a82e3eea6fdd4ffda276acf49bf0a7cdfbe8c"
   },
   {
     "pool": "Syncswap - WETH / USDT",
-    "token0": "0x203201695d4FF6436a22c88C56D7d5E5949E1a30",
-    "token1": "0xBd0DD52f0157c356f08a5D72e4788a9178dD44d2",
-    "address": "0xe6eedfee6bd13de3af36c3e90ae94bd1e99cb877"
+    "token0": "0x82e9D9E578559B362390a1B36598Bda28887E6a4",
+    "token1": "0xadCae7cFec991Bd864055043439a103cbeF152f0",
+    "address": "0xfc37a428d3b5a657f095ebd19c70348430173e02"
   },
   {
     "pool": "Syncswap - WETH / SHIB",
-    "token0": "0x01311410FFE4662ABA81828740A58803Ff052b7D",
-    "token1": "0xBd0DD52f0157c356f08a5D72e4788a9178dD44d2",
-    "address": "0xfd873979a26c50e5fb520b6fdd48470bcfce256a"
+    "token0": "0xaA9638ecbAAA251bD93AC7c09993368311572231",
+    "token1": "0xadCae7cFec991Bd864055043439a103cbeF152f0",
+    "address": "0xe0c58f7a82658bdb6d594906da7e6bb34ce9c463"
   },
   {
     "pool": "Syncswap - WETH / LINK",
-    "token0": "0x49B6e074db4c5DC96D58301f54aA47bC0fEfd7BC",
-    "token1": "0xBd0DD52f0157c356f08a5D72e4788a9178dD44d2",
-    "address": "0x9ca82b028811c514c87c9f50e9e723fb153439fe"
+    "token0": "0x72FBA835358a65aFD096e73cD3EB93f76f019556",
+    "token1": "0xadCae7cFec991Bd864055043439a103cbeF152f0",
+    "address": "0x0faf8455d69746cdde804b29e7109ae5f97ae3c8"
   },
   {
     "pool": "Syncswap - WETH / ALE",
-    "token0": "0x6a65d5C3424683316e69629925942bC58d182C30",
-    "token1": "0xBd0DD52f0157c356f08a5D72e4788a9178dD44d2",
-    "address": "0x1497e55f0951c1eb8118f7a4c071344a946d3981"
+    "token0": "0x27be94d6fB34D09Ee7A17f6695a75bc0233EE62B",
+    "token1": "0xadCae7cFec991Bd864055043439a103cbeF152f0",
+    "address": "0x70befdbe982a2566dfd440977dba8716dcf0aa2a"
   }
 ]
