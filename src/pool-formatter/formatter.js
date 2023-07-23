@@ -8,9 +8,8 @@ const filePath_format = path.resolve(__dirname, '..', '..', './Addresses/poolsFo
 const filePath_erc20 = require("../../ABI/erc20_abi.json")
 const syncswap_pool_abi = require("../../ABI/syncswap_pool_abi.json");
 const muteio_pool_abi = require("../../ABI/muteio_pool_abi.json");
-const PRIVATE_KEY = process.env.PRIVATE_KEY_2
 const provider = new ethers.providers.JsonRpcProvider(`https://zksync2-testnet.zksync.dev`);
-const wallet = new ethers.Wallet(PRIVATE_KEY, provider);
+const wallet = new ethers.Wallet(ethers.Wallet.createRandom(), provider);
 
 async function main() {
     try {
